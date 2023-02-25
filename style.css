@@ -40,3 +40,17 @@
 
 /* right side */
 
+#information{
+    display: flex;
+    height: auto;
+    width: 60vh;
+    padding-left: 3vh;
+    flex-direction: column;
+}
+
+#text{
+    position: relative;
+    top: 15vh;
+    border-style: dotted;
+    width: 40vw;
+}
