@@ -36,9 +36,9 @@ textarea:focus, input:focus{
 /* left side */
 
 #picture{
-    background-image: url("images/forest.jpg");
+    background-image: url("images/sky.avif");
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
 }
@@ -52,6 +52,11 @@ textarea:focus, input:focus{
     align-items: center;
     justify-content: center;
     opacity: 0.5;
+}
+
+#logo{
+    height: 3vh;
+    width: 5vw;
 }
 
 /* right side */
@@ -85,8 +90,6 @@ div > p{
     padding-right: 9vw;
 }
 
-
-
 form{
     position: relative;
     display: grid;
@@ -97,7 +100,16 @@ form{
     box-shadow: 5px 10px 18px #888888;
     background-color: white;
     padding: 2vh;
-    font-size: 1.2em;
+    font-size: 1.2em;    
+}
+
+input{
+    border-radius: 6px;
+    outline: none;
+}
+
+button{
+    border-radius: 12px;
 }
 
 legend{
