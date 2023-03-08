@@ -18,6 +18,47 @@
             <div id="text">
                 <p>This is not a real online service! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa architecto facere quas odit et maxime, quisquam ea assumenda aperiam sunt ex sint reprehenderit aut consequatur doloremque numquam facilis repudiandae.</p>
             </div>
+            <form action="post" id="my_form">
+                <legend><h1>Let's do this!</h1></legend>
+                        
+                    <div>
+                        <label for="f_name">First Name:</label>
+                        <input type="text" id="f_name" name="first_name"
+                        placeholder="Joel">
+                    </div>
+
+                    <div>
+                        <label for="l_name">Last Name:</label>
+                        <input type="text" id="l_name" name="last_name"
+                        placeholder="Miller">
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"
+                        placeholder="Jmiller@gmail.com">
+                    </div>
+
+                    <div>
+                        <label for="phone_num">Phone Number:</label>
+                        <input type="number" id="phone_num" name="phone_number"
+                        placeholder="+1 354-366-7821">
+                    </div>
+                            
+                    <div>
+                        <label for="pwrd">Password:</label>
+                        <input type="password" id="pwrd" name="password">
+                    </div>
+
+                    <div>
+                        <label for="confirm_pwrd">Confirm Password:</label>
+                        <input type="password" id="confirm_pwrd" name="password">
+                    </div>
+            </form>
+            <div id="submit">
+                <button type="submit" form="my_form">Create account</button>
+                <p id="sign">Already have an account? <a href="">Log in!</a></p>
+            </div> 
         </div>
     </div>
 </body>
