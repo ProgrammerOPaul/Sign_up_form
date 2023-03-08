@@ -1,5 +1,5 @@
 :root{
-    --txt: purple;
+    --txt: #818783;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -54,10 +54,28 @@ textarea:focus, input:focus{
     opacity: 0.5;
 }
 
+#catchphrase > h1{
+    gap: 2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.4em;
+    color: #f0efea;
+}
+
 #logo{
-    height: 3vh;
+    height:12vh;
     width: 5vw;
 }
+
+footer{
+    position: relative;
+    color: #fbf6f2;
+    top: 80vh;
+}
+
+footer a{ 
+    color: #fbf6f2;
+}
+
 
 /* right side */
 
@@ -68,7 +86,7 @@ textarea:focus, input:focus{
     flex-direction: column;
     padding-top: 10vh;
     gap: 5vh;
-   
+    background-color: #fbf6f2;
 }
 
 form > div{
