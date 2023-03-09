@@ -40,7 +40,7 @@ input[type=number] {
     width: 40vw;
 }
 
-#catchphrase{
+#company{
     display: flex;
     height: auto;
     position: relative;
@@ -51,14 +51,14 @@ input[type=number] {
     background-color: rgb(0, 0, 0.7);
 }
 
-#catchphrase > h1{
+#company > h1{
     gap: 2vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.4em;
     color: #f0efea;
 }
 
-#catchphrase > img{
+#company > img{
     height:12vh;
     width: 5vw;
 }
@@ -110,12 +110,7 @@ form{
     box-shadow: 5px 10px 18px #888888;
     background-color: white;
     padding: 5vh;
-    font-size: 1.2em;    
-}
-
-input{
-    border-radius: 6px;
-    outline: none;
+    font-size: 1.2em;   
 }
 
 form > div{
@@ -125,8 +120,9 @@ form > div{
     align-items: left;
 }
 
-button{
-    border-radius: 12px;
+input{
+    border-radius: 6px;
+    outline: none;
 }
 
 #submit{
@@ -145,6 +141,7 @@ button{
     width: 300px;
     height: 60px;
     font-size: 1.3em;
+    border-radius: 12px;
 }
 
 #sign{
@@ -153,7 +150,7 @@ button{
 }
 
 :focus{
-    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+    box-shadow: 0 0 0 3px rgba(3, 156, 238, 0.974);
 }
 
 @media only screen and (max-width: 600px) {
@@ -167,58 +164,43 @@ button{
     }
 
     #picture{
-        background-image: url("images/sky.avif");
-        background-position: center;
         width: 100vw;
         height: 25vh;
     }
 
-    #catchphrase{
+    #company{
         top: 5vh;
         gap: 3vw;
     }
 
-    #catchphrase > h1{
+    #company > h1{
         gap: 1vw;
         font-size: 2.3em;
     }
 
-    #catchphrase > img{
-        height:12vh;
+    #company > img{
         width: 15vw;
+    }
+
+    footer, footer a{
+        visibility: hidden;
     }
 
     /* right side */
 
     #information{
         width: 100vw;
-        height: auto;
-        flex-direction: column;
         padding: 0vh;
-        gap: 0vh;  
+        gap: 0vh;
     }
 
     div > p{
         padding: 5vh 2vw;
-        font-size: 1.7em;
-        text-align: justify;
     }
 
     legend{
         text-align: center;
     }
-
-    form > div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 0vh;
-    }
-
-    form > *{
-        padding-left: 0vh;
-    } 
 
     form{
         display: flex;
@@ -226,18 +208,21 @@ button{
         padding: 4vh 0vh;
     }
 
+    form > div{
+        align-items: center;
+    }
+
+    form > *{
+        padding-left: 0vh;
+    } 
+
     #submit{
         padding-top: 5vh;
         align-items: center;
-        justify-content: center;
         gap: 0px;
     }
 
     button{
-        position: relative;
         left: 0%;
-        width: 300px;
-        height: 60px;
-        font-size: 1.3em;
     }
 }
