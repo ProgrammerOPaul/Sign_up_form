@@ -165,132 +165,95 @@ button{
     box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+
+    :root{
+        font-size: 20px;
+    }
+
     #content{
-    flex-direction: column;
-    gap: 5vh;
-    height: auto;
+        flex-direction: column;
+        height: auto;
     }
 
     #picture{
         background-image: url("images/sky.avif");
         background-position: center;
         width: 100vw;
-        height: 900px;
-        background-size: 100vw;
-        border-color: red;
-        border-style: dotted;
-        
+        height: 25vh;
     }
 
     #catchphrase{
-        background-color: rgb(0, 0, 0.7);
-        display: flex;
-        height: auto;
-        position: relative;
         top: 5vh;
-        align-items: center;
-        justify-content: center;
-        opacity: 0.5;
+        gap: 3vw;
     }
-    
+
     #catchphrase > h1{
-        gap: 2vw;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 3.4em;
-        color: #f0efea;
+        gap: 1vw;
+        font-size: 2.3em;
     }
-    
+
     #logo{
         height:12vh;
-        width: 5vw;
+        width: 15vw;
     }
+
     /* right side */
 
     #information{
-        display: flex;
-        height: auto;
         width: 100vw;
         flex-direction: column;
-        padding-top: 5vh;
-        gap: 5vh;
-        background-color: #fbf6f2;
-}
+        padding: 0vh;
+        gap: 0vh;  
+    }
+
+    div > p{
+        padding: 5vh 2vw;
+        font-size: 1.7em;
+        text-align: justify;
+    }
+
+    legend{
+        text-align: center;
+    }
 
     form > div{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: center;
+        padding-left: 0vh;
     }
 
-form > *{
-    padding-left: 1vh;
-} 
+    form > *{
+        padding-left: 0vh;
+    } 
 
-div > p{
-    padding-left: 0px;
-    font-size: 1.7em;
-    text-align: center;
-    text-justify: none;
-    padding-right: 9vw;
-}
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 4vh 0vh;
+    }
 
-form{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 5px 10px 18px #888888;
-    background-color: white;
-    padding: 2vh;
-    font-size: 1.2em;    
-}
+    #submit{
+        height: auto;
+        padding: 5vh;
+        align-items: center;
+        gap: 0px;
+    }
 
-input{
-    border-radius: 6px;
-    outline: none;
-}
-
-button{
-    border-radius: 12px;
-}
-
-legend{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-size: 0.8em;
-}
-
-div{
-    position: relative;
-}
+    button{
+        position: relative;
+        left: 0%;
+        width: 300px;
+        height: 60px;
+        font-size: 1.3em;
+    }
 
 
-#submit{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    gap: 3vh;
-}
-
-button{
-    position: relative;
-    background-color: #483d40;
-    color: #f0efea;
-    left: 5%;
-    width: 300px;
-    height: 60px;
-    font-size: 1.3em;
-}
-
-#sign{
-    position: relative;
-    font-size: 1.3em;
-}
-
-:focus{
-    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
-}
+    #sign{
+        position: relative;
+        font-size: 1.3em;
+    }
 
 }
