@@ -73,7 +73,6 @@ footer a{
     color: #fbf6f2;
 }
 
-
 /* right side */
 
 #information{
@@ -202,6 +201,7 @@ button{
 
     #information{
         width: 100vw;
+        height: auto;
         flex-direction: column;
         padding: 0vh;
         gap: 0vh;  
@@ -236,9 +236,9 @@ button{
     }
 
     #submit{
-        height: auto;
-        padding: 5vh;
+        padding-top: 5vh;
         align-items: center;
+        justify-content: center;
         gap: 0px;
     }
 
@@ -250,10 +250,8 @@ button{
         font-size: 1.3em;
     }
 
-
     #sign{
         position: relative;
         font-size: 1.3em;
     }
-
 }
