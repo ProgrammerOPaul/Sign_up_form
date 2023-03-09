@@ -46,7 +46,7 @@ input[type=number] {
     display: flex;
     height: auto;
     position: relative;
-    top: 30vh;
+    top: 26vh;
     align-items: center;
     justify-content: center;
     opacity: 0.5;
@@ -84,7 +84,7 @@ footer a{
     height: auto;
     width: 60vw;
     flex-direction: column;
-    padding-top: 5vw;
+    padding-top: 3.3vw;
     gap: 5vh;
     background-color: #fbf6f2;
 }
@@ -127,7 +127,6 @@ input{
     border-radius: 6px;
     outline: none;
     max-width: 400px;
-    
 }
 
 #submit{
