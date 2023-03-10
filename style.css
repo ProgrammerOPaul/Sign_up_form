@@ -148,14 +148,18 @@ button{
     border-radius: 12px;
 }
 
-#sign{
+#sign_in{
     position: relative;
     font-size: 1.3em;
 }
 
+
+
 :focus{
     box-shadow: 0 0 0 3px rgba(3, 156, 238, 0.974);
 }
+
+
 
 @media only screen and (max-width: 700px) {
     :root{
